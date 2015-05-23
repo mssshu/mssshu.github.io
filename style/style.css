@@ -1,5 +1,46 @@
 body {
- background: url('/images/background.png');
+ background: url('../images/background.png');
  background-size: 34px 322px;
  background-repeat: repeat;
+}
+
+#heading{
+  background: #000000;
+  color: #ffffff;
+  font-family: georgia;
+  font-style: italic;
+  
+  /*corners*/
+  border-radius: 15px;
+  
+  /*outside container*/
+  margin-top: 75px;
+  margin-right: 100px;
+  margin-left: 100px;
+  /*inside container*/
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#pageBody{
+  background: #ffffff;
+  font-family: verdana;
+  
+  /*corners*/
+  border: 2px solid #000000;
+  border-radius: 5px;
+  
+  /*outside container*/
+  margin: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  /*inside container*/
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  box-shadow: 5px 5px 5px #888888;
 }
