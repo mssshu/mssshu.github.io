@@ -1,0 +1,60 @@
+body {
+ background: url('../images/background.png');
+ background-size: 34px 322px;
+ background-repeat: repeat;
+}
+h1{
+  font-family: georgia;
+  /*font-style: italic;*/
+  font-size: 40px;
+}
+#container{
+  padding: 3%;
+}
+
+.heading{
+  background: #000000;
+  color: #ffffff;
+  
+  /*corners*/
+  border-radius: 15px;
+
+  /*inside container*/
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.pageBody{
+  background: #ffffff;
+  font-family: arial;
+  height: 300px;
+  
+  /*corners*/
+  border: 2px solid #000000;
+  border-radius: 5px;
+  
+  /*outside container*/
+  margin-top:50px;
+
+  /*inside container*/
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 5px 5px 5px #888888;
+}
+hr.{
+  height: 20px;
+}
+.button{
+    text-decoration: none;
+    position: fixed;
+    color: #0e0e0e;
+    background: #eee0ee;
+    padding: 20px;
+    border-style: dotted;
+    border-color:#0e0e0e;
+    border-radius:15px;
+    margin:15px;
+}
