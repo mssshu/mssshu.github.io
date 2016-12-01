@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "SunSign";
+    Layout = "~/Views/Shared/_ProjectsLayout.cshtml";
+    ViewBag.Date = "December 2015";
+    ViewBag.Summary = "An individual project made with Android Studio.";
+    ViewBag.Frameworks = "none";
+    ViewBag.Languages = "Java . HTML . CSS";
+}
+<img src="~/Content/images/sunsign.png">
+@section details{
+    A fun app to provide more information about your zodiac sign.
+    An algorithm is manually designed to find your zodiac sign by entering your month by 
+    word or number, and your day. Error checking on misspelled months or invalid
+    days, and any whitespace will be automatically removed. For example:
+    <br /><br /> "October", "Oc to ber", "10" are all valid.<br /><br />
+    One page holds as the template 
+    for all signs and information is passed depending on the result of the algorithm.
+    <br /><br />
+    <a href="https://play.google.com/store/apps/details?id=com.astrology.sunSign.zodiac">View in Play store</a>
+    }
+
+@section screenshots{
+    <img src="~/Content/images/Zodiac_symbols.jpg" class="img-responsive">
+}
