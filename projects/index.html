@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="./style/styleProjects.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="./style/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link rel="icon" href="./images/heart.ico">
-        <title>Projects</title>
-    </head>
-    
-	<body>
+<head>
+  <title>Planet Datum</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="icon" href="./images/heart.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="../images/964.png" width="30"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://www.planetdatum.me">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="./projects/index.html">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!--<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">   
 			<a href="http://www.planetdatum.com/page" class="button">HOME</a>
 		<div id = "container">
 			<div class= "heading">
@@ -21,17 +46,20 @@
 			<div class="pageBody">
 				<div id ="cloudify">
 				<h3><a href="https://play.google.com/store/apps/details?id=com.ambientdevs.weather"><b>Cloudify</b></a></h3>
-				<img src="./images/cloudify.png" align="left"><br><br>
+				<img src="../images/cloudify.png" align="left"><br><br>
 					<p>Developed with a partner. <br>This weather app collects data from Json objects and parses them into a simple, clean-cut UI.</p>
 			</div></div>
-<!-- 			<br><br><br>
-			<hr> -->
+
 			<div class="pageBody" id ="sunSign">
 				<h3><a href="https://play.google.com/store/apps/details?id=com.astrology.sunSign.zodiac"><b>SunSign</b></a></h3>
-					<img src="./images/sunsign.png" align="left"><br><br>
+					<img src="../images/sunsign.png" align="left"><br><br>
 					<p>Developed independently.<br>This is a fun app that displays information about your zodiac sign.</p>
 			</div>
 		</div>
-	</body>
+		</div>
+<footer class="container-fluid text-center">
+  <p>Copyright Planet Datum</p>
+</footer>
 
+</body>
 </html>
