@@ -8,27 +8,36 @@ footer {
   padding: 25px;
 }
 
-.carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    min-height:200px;
-}
-
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-}
-
 html, body {
- background: url('../images/background.png');
- background-size: 34px 322px;
+   background: url('../images/background.png');
+
  background-repeat: repeat;
- min-height: 100%;
 }
-.container{
-  padding: 3%;
-}
+
 .nav{
   font-family: georgia;
+}
+audio {
+    background-color: #000000;
+}
+.jumbotron{
+   background: url('../images/background.png');
+
+   background-repeat: repeat;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p, h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: #6d677c;
+}
+.center{
+  margin: auto;
+  width: 80%;
+  padding: 15px;
 }
