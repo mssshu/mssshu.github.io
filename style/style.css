@@ -13,10 +13,11 @@ footer {
   width: 100%;
   overflow: hidden;
 }
-
-html {
+html, body {
  background: url('../images/background.png');
  background-repeat: repeat;
+}
+html {
  position: relative;
  min-height: 100%;
 }
@@ -59,5 +60,5 @@ h1, h3 {
   font-size:0.8em;
 }
 #subtitle {
-  font-size:0.8em;
+  font-size:12px;
 }
