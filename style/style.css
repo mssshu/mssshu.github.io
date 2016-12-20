@@ -11,12 +11,21 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-html, body {
+html {
  background: url('../images/background.png');
  background-repeat: repeat;
+ position: relative;
+ min-height: 100%;
+}
+body{
+  margin: 0 0 100px;
+  font-size: 1.5em;
+}
+.container {
+ height: 100%;
 }
 .nav{
   font-family: georgia;
@@ -44,4 +53,8 @@ h1, h3 {
   width: 80%;
   height: auto;
   padding: 15px;
+}
+.courses{
+  padding-bottom: 25px;
+  font-size:0.8em;
 }
