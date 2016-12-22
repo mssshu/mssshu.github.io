@@ -49,6 +49,9 @@ h1, h3 {
   padding: 25px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+.col-md-12 {
+  padding-top: 50px;
+}
 .img-responsive {
   padding: 25px;
 }
