@@ -5,6 +5,8 @@
 .jumbotron {
   padding: 0;
   padding-bottom: 35px;
+  background-color:#FDFEFE;
+  opacity: 0.5;
 }
 footer {
   background-color: #0e0e0e;
@@ -16,7 +18,7 @@ footer {
   overflow: hidden;
   padding: 10px 25px 0 25px;
 }
-html, body, .jumbotron {
+html {
  background: url('../images/background.png');
  background-repeat: repeat;
 }
@@ -27,7 +29,8 @@ html {
  margin: auto;
 }
 body{
-  margin: 0 0 175px;
+  margin: 0 0 60px;
+  background-color:#FDFEFE;
 }
 .nav{
   font-family: georgia;
