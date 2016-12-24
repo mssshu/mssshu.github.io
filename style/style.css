@@ -55,9 +55,6 @@ h1, h3 {
   padding: 25px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-.col-md-6 {
-  margin-top: 25px;
-}
 .container {
   width: 80%;
 }
@@ -65,13 +62,17 @@ h1, h3 {
   font-size:12px;
 }
 #details{
-  margin-top: 175px;
+  margin-top: 25px;
   height: 100%;
   position: relative;
   top:0;
   left:0;
   z-index:1;
-  width:100%;
+  display:none;
+}
+#click {
+  color: #6d677c;
+  font-weight: bold;
 }
 .projectIcon {
   max-height: 50%;
@@ -84,6 +85,21 @@ h1, h3 {
   width: 100%;
   vertical-align: middle;
   display: inline-block;
+}
+.top {
+  border-top-style:solid;
+  border-color: #eeeeee;
+  border-width: 2px;
+}
+.left {
+  border-left-style:solid;
+  border-color: #eeeeee;
+  border-width: 2px;
+}
+.right {
+  border-right-style:solid;
+  border-color: #eeeeee;
+  border-width: 2px;
 }
 .pic {
   margin-top:5px;

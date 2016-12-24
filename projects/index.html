@@ -9,6 +9,16 @@
   <link rel="icon" href="../images/heart.ico">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+	function myFunc() {
+	    var x = document.getElementById("details");
+	    if (x.style.display === "block") {
+	        x.style.display = "none";
+	    } else {
+	        x.style.display = "block";
+	    }
+	}
+  </script>
 </head>
 <body>
 
@@ -36,7 +46,7 @@
   </div>
 </nav>
 <div class="container"> 
-  <div class="text-center col-sm-12">click on the icons for the GooglePlay Store page or click <a href="#details"><b>here</b></a> for more details
+  <div class="click text-center col-sm-12">click on the icons for the GooglePlay Store page or click <b><a onclick="myFunc()" href="#details" id="click">here</a></b> for more details
 
 
   </div>
@@ -68,7 +78,7 @@
 
   <div id="details">
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 right top">
 <img src="../images/question.jpg" class="img-responsive projectIcon"></img>
     <b>Date Created:</b>
 2017
@@ -81,7 +91,7 @@
 
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-6 top">
 <img src="../images/pink.jpg" class="img-responsive projectIcon"></img>    
     <b>Date Created:</b>
   May 2016
@@ -97,7 +107,7 @@
 </div>
 <div class="row">
 
-  <div class="col-md-6">
+  <div class="col-md-6 top">
 <img src="../images/vanhacks.jpg" class="img-responsive projectIcon"></img>
     <b>Date Created:
   </b>March 2016
@@ -110,7 +120,7 @@
   <img src="../images/vanhacks1.jpg" class="img-responsive pic">
     <img src="../images/vanhacks2.jpg" class="img-responsive pic">
   </div>
-    <div class="col-md-6">
+    <div class="col-md-6 left top">
 <img src="../images/roadhouse.png" class="img-responsive projectIcon"></img>
    <b>Date Created:
   </b>January 2016
@@ -125,7 +135,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 top">
 <img src="../images/cloudify.png" class="img-responsive projectIcon"></img>
     <b>Date Created:
   </b>December 2015
@@ -137,7 +147,7 @@
   </b>Created with Android Studio and published on the GoogePlay Store. Uses a RestAPI to extract data from forecast.io to find curret, daily, and hourly weather specs. 
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-6 left top">
 <img src="../images/sunsign.png" class="img-responsive projectIcon"></img>
     <b>Date Created:
   </b>December 2015
