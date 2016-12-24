@@ -57,6 +57,7 @@ h1, h3 {
 }
 .container {
   width: 80%;
+  margin-bottom: 100px;
 }
 #subtitle {
   font-size:12px;
