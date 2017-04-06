@@ -32,7 +32,7 @@ body{
   background-color:#FDFEFE;
 }
 .nav{
-  font-family: georgia;
+  font-family:  "Courier New", Courier, monospace;
 }
 audio {
     background-color: #0e0e0e;
@@ -48,7 +48,7 @@ p, h1, h3, ul {
   font-family: "Courier New", Courier, monospace;
 }
 
-h1, h3 {
+h1, h3, a:hover {
   color: #6d677c;
 }
 .col-md-4, .col-sm-12, .col-md-6 {
@@ -71,9 +71,8 @@ h1, h3 {
   z-index:1;
   display:none;
 }
-#click {
+.click {
   color: #6d677c;
-  font-weight: bold;
 }
 .projectIcon {
   max-height: 50%;
@@ -82,7 +81,6 @@ h1, h3 {
   padding: 25px;
 }
 .row {
-  margin: auto;
   width: 100%;
   vertical-align: middle;
   display: inline-block;
@@ -110,15 +108,43 @@ h1, h3 {
   max-height: 35px;
   padding: 5px;
 }
+.padding {
+  padding: 25px;
+}
+.notice {
+  padding-top: 160px;
+}
 #footer-text {
   float:left;
 }
-.courses{
+.infoFont{
   font-size:0.8em;
+  color: #000000;
 }
-#hobbies {
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover.hover{
+  font-weight: bolder;
+  font-size: 13px;
+}
+.hobbiesBorder {
   border-left-style: solid;
   border-right-style: solid;
   border-color: #eeeeee;
   border-width: 2px;
+  padding: 0px 5px;
+}
+#books, #hobbies, #courses{
+  height: 100%;
+  position: relative;
+  top:0;
+  left:0;
+  z-index:1;
+  display:none;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
