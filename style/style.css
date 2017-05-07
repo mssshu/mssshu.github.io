@@ -28,7 +28,7 @@ html {
 }
 body{
   background-color:#FDFEFE;
-  height:100%;
+  height:100% !important;
 }
 .nav{
   font-family:  "Courier New", Courier, monospace;
