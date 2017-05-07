@@ -4,7 +4,6 @@
 }
 .jumbotron {
   padding: 0;
-  padding-bottom: 35px;
   background-color:#FDFEFE;
 }
 footer {
@@ -28,8 +27,8 @@ html {
  margin: auto;
 }
 body{
-  margin: 0 0 60px;
   background-color:#FDFEFE;
+  height:100%;
 }
 .nav{
   font-family:  "Courier New", Courier, monospace;
@@ -117,10 +116,6 @@ h1, h3, a:hover {
 #footer-text {
   float:left;
 }
-.infoFont{
-  font-size:0.8em;
-  color: #000000;
-}
 a {
   text-decoration: none;
   color: #000000;
@@ -128,6 +123,7 @@ a {
 a:hover.hover{
   font-weight: bolder;
   font-size: 13px;
+  cursor: pointer;
 }
 .hobbiesBorder {
   border-left-style: solid;
@@ -137,14 +133,9 @@ a:hover.hover{
   padding: 0px 5px;
 }
 #books, #hobbies, #courses{
-  height: 100%;
-  position: relative;
-  top:0;
-  left:0;
-  z-index:1;
   display:none;
 }
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
+  text-decoration: none;
 }
